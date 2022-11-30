@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'PuradakGentleGothicR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: 18px;
 }
@@ -19,7 +26,7 @@ html {
 body {
   margin: 0 0 5vh 0;
   background-color: whitesmoke;
-  font-family: 'HBIOS-SYS';
+  font-family: 'PuradakGentleGothicR';
 }
 
 .container {
