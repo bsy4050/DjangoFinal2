@@ -14,13 +14,13 @@
     <p><<{{character.weapon.name}}>>의 공격력은 {{character.weapon.power}}입니다.</p>
 
     <p>
-      <a href="{% url 'games:adventure_attack' %}">모험 떠나기</a>
+      <a class="game-button" href="{% url 'games:adventure_attack' %}">모험 떠나기</a>
     </p>
     <p>
-      <a href="{% url 'games:weapon_workroom' %}">무기 공방</a>
+      <a class="game-button" href="{% url 'games:weapon_workroom' %}">무기 공방</a>
     </p>
     <p>
-      <a href="{% url 'games:game_list' %}">돌아가기</a>
+      <a class="game-button" href="{% url 'games:game_list' %}">돌아가기</a>
     </p>
   </div>
 {% endblock %}
